@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+#main-nav{
+    background-color: white;
+}
+#main-nav a {
+    color: white;
+}
+#main-nav .fas{
+    color: white;
+    border-color: white;
+    font-size: 25px;
+}
+
+#main-nav ul li a:hover{
+    color: rgb(0, 150, 200);
+    transition: .5s;
+}
+
+#home{
+    height: 100vh;
+}
+section{
+    
+    background-image: url();
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .custom-col{
+    margin-top: 20%;
+
+}
+
+#home .d-flex .btn{
+    margin-right: 5px;
+}
+
+#home ul li a i:hover{
+    background: black;
+    color: white;
+    border: black;
+    box-shadow: 0 0 10px black;
+
+}
+
+i{
+    color: black;
+}
+
+#about img{
+    filter: grayscale(1);
+}
+
+.img-hero{
+    height: auto;
+}
+
+#about .spacing{
+    margin-top: 10%;
+} 
+
+.block{
+    height: .3rem;
+    width: 6rem;   
+    background: black;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 2rem; */
+    opacity: 0.5;
+}
+
+#portfolio .card-body p{
+    justify-content: start;
+}
+
+#myskill .card-body .d-flex{
+    justify-content: space-between;
+}
+
+#education{
+    padding-top: 20px;
+}
+
+#experience .card-photo{
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+#project .rounded{
+    width: 200px;
+}
+#project .card:hover{
+    .rounded{
+        width: 230px;
+        transition: 0.5s;
+    }
+}
+#project .card:not(:hover){
+    .rounded{
+        transition: 1s;
+    }
+}
+
+
+#contact ul{
+    list-style: none;   
+}
+
+#contact ul li{
+    padding-bottom: 10px;
+
+}
+
+#contact ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact ul li a i{
+    padding-right: 15px;
+}
+
+#contact ul li a:hover, #contact ul li a i:hover{
+    color: blue;
+    transition: .5s;
+}
+
+#contact .fab:hover{
+    background: black;
+    color: white;
+    border: black;
+    box-shadow: 0 0 10px black;
+}
+
+#contact .d-cv:hover{
+    box-shadow: 0 0 10px black;
+}
+
+
